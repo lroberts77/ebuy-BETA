@@ -1,9 +1,13 @@
 import React from 'react'
 
-const header = () => {
+const Header = () => {
   return (
-    <div>header</div>
+    <div className='ui fixed menu'>
+        <div className='ui container center>'>
+            <h2>EBUY-BETA</h2>
+        </div>
+    </div>
   )
 }
 
-export default header
+export default Header
