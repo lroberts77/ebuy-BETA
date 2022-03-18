@@ -1,5 +1,6 @@
 import { ActionTypes } from "../constants/action-types";
 
+//action to set setproducts with actiontype and payload
 export const setProducts = (products) => {
     return {
         type: ActionTypes.SET_PRODUCTS,
@@ -7,6 +8,7 @@ export const setProducts = (products) => {
     };
 };
 
+//action to set selectedproduct with actiontype and payload
 export const selectedProduct = (product) => {
     return {
         type: ActionTypes.SELECTED_PRODUCT,
@@ -14,6 +16,7 @@ export const selectedProduct = (product) => {
     };
 };
 
+//action to set removeproduct with actiontype
 export const removeSelectedProduct = () => {
     return {
         type: ActionTypes.REMOVE_SELECTED_PRODUCT,
